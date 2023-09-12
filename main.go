@@ -2,7 +2,7 @@ package main
 
 // #cgo CFLAGS: -I .
 // #cgo LDFLAGS: -L . -lmy_class
-// #include "my_class_wrapper.h"
+// #include "MyClassWrapper.h"
 import "C"
 
 func main() {
