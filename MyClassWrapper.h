@@ -7,6 +7,8 @@ extern "C" {
 
 void* MyClass_new();
 void  MyClass_delete(void* obj);
+void* MyClass2_new();
+void  MyClass2_delete(void* obj);
 void  MyClass_say_hello(void* obj);
 
 #ifdef __cplusplus
