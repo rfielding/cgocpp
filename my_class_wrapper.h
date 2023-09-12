@@ -5,9 +5,9 @@
 extern "C" {
 #endif
 
-void* new_my_class();
-void delete_my_class(void* obj);
-void say_hello(void* obj);
+void* my_class_new();
+void  my_class_delete(void* obj);
+void  my_class_say_hello(void* obj);
 
 #ifdef __cplusplus
 }

@@ -3,15 +3,15 @@
 
 extern "C" {
 
-void* new_my_class() {
+void* my_class_new() {
     return new MyClass();
 }
 
-void delete_my_class(void* obj) {
+void my_class_delete(void* obj) {
     delete reinterpret_cast<MyClass*>(obj);
 }
 
-void say_hello(void* obj) {
+void my_class_say_hello(void* obj) {
     reinterpret_cast<MyClass*>(obj)->sayHello();
 }
 
