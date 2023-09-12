@@ -6,7 +6,7 @@ package main
 import "C"
 
 func main() {
-    obj := C.my_class_new()
-    defer C.my_class_delete(obj)
-    C.my_class_say_hello(obj)
+    obj := C.MyClass_new()
+    defer C.MyClass_delete(obj)
+    C.MyClass_say_hello(obj)
 }
