@@ -1,4 +1,4 @@
-#include "my_class_wrapper.h"
+#include "MyClassWrapper.h"
 #include "MyClass.h"
 
 extern "C" {
