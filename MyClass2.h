@@ -2,11 +2,11 @@
 #define MY_CLASS2_H
 #include "MyClass.h"
 
-class MyClass2 : MyClass {
+class MyClass2 : public MyClass {
 public:
     MyClass2();
-    ~MyClass2();
-    void sayHello();
+    virtual ~MyClass2();
+    virtual void sayHello();
 };
 
 #endif

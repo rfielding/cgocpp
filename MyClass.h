@@ -4,8 +4,8 @@
 class MyClass {
 public:
     MyClass();
-    ~MyClass();
-    void sayHello();
+    virtual ~MyClass();
+    virtual void sayHello();
 };
 
 #endif
