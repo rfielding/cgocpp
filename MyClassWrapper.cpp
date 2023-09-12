@@ -18,7 +18,6 @@ void MyClass_delete(void* obj) {
 
 void MyClass_say_hello(void* obj) {
     MyClass* p = reinterpret_cast<MyClass*>(obj);
-    p = dynamic_cast<MyClass*>(p);
     p->sayHello();
 }
 
